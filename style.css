@@ -1,1 +1,17 @@
-
+body {background: rgb(255, 249, 248);}
+h1 {text-align: center;
+  color: pink;
+}
+.glow-text {
+    text-shadow: rgba(211,185,217,0.9) 0px 0px 39px;
+}
+h2 {
+  text-align: center;
+}
+h2 { color: white;}
+p {color: white;}
+ul li {
+  background: white;
+  color: black;
+  margin: 5px;
+}
