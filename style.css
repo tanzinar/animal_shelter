@@ -1,17 +1,47 @@
-body {background: rgb(255, 249, 248);}
-h1 {text-align: center;
-  color: pink;
-}
-.glow-text {
-    text-shadow: rgba(211,185,217,0.9) 0px 0px 39px;
-}
-h2 {
-  text-align: center;
-}
-h2 { color: white;}
-p {color: pink;}
-ul li {
-  background: white;
-  color: black;
-  margin: 5px;
-}
+
+body { 
+margin: 0;
+font-family: 'Arial', sans-serif;
+background-color: #ffe4e6; /* Light pink background */
+color: #d14765; /* Darker pink text */ 
+} 
+
+header { 
+text-align: center; 
+padding: 20px; 
+background-color: #f8b0ba; /* Medium pink */ 
+color: white; 
+font-family: 'Georgia', serif; 
+font-size: 2.5em; 
+} 
+
+nav 
+{ 
+background-color: #f8b0ba; 
+padding: 10px; 
+} 
+
+.dropdown-menu { 
+list-style: none; 
+display: flex; 
+justify-content: center; 
+padding: 0; 
+margin: 0; 
+} 
+
+.dropdown-menu > li {
+ position: relative; 
+margin: 0 15px; 
+} 
+
+.dropdown-menu a { 
+text-decoration: none; 
+color: white;
+font-weight: bold; 
+padding: 5px10px; 
+} 
+
+.dropdown { 
+display: none; 
+position: absolute; 
+top: 100%;
