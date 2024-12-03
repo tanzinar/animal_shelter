@@ -1,47 +1,51 @@
+body {background: rgb(255, 249, 248);}
+h1 {text-align: center;
+  color: pink;
+}
+.glow-text {
+    text-shadow: rgba(211,185,217,0.9) 0px 0px 39px;
+}
+h2 {
+  text-align: center;
+}
+h2 { color: white;}
+p {color: pink;}
+ul li {
+  background: white;
+  color: black;
+  margin: 5px;
+}
 
-body { 
-margin: 0;
-font-family: 'Arial', sans-serif;
-background-color: #ffe4e6; /* Light pink background */
-color: #d14765; /* Darker pink text */ 
-} 
 
-header { 
-text-align: center; 
-padding: 20px; 
-background-color: #f8b0ba; /* Medium pink */ 
-color: white; 
-font-family: 'Georgia', serif; 
-font-size: 2.5em; 
-} 
 
-nav 
-{ 
-background-color: #f8b0ba; 
-padding: 10px; 
-} 
 
-.dropdown-menu { 
-list-style: none; 
-display: flex; 
-justify-content: center; 
-padding: 0; 
-margin: 0; 
-} 
 
-.dropdown-menu > li {
- position: relative; 
-margin: 0 15px; 
-} 
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 
-.dropdown-menu a { 
-text-decoration: none; 
-color: white;
-font-weight: bold; 
-padding: 5px10px; 
-} 
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-.dropdown { 
-display: none; 
-position: absolute; 
-top: 100%;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
